@@ -18,7 +18,7 @@ stored.
 P
 ## PROGRAM - ARP
 ### Client.PY
-```
+```python
 import socket 
 s=socket.socket() 
 s.bind(('localhost',8000)) 
@@ -34,7 +34,7 @@ while True:
 ```
 
 ### Server.PY
-```
+```python
 import socket
 s=socket.socket()
 s.connect(('localhost',8000))
